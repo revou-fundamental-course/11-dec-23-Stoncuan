@@ -1,0 +1,2 @@
+untuk colspan 2 row ke samping kanan
+untuk rowspan ambil ke bawah 
