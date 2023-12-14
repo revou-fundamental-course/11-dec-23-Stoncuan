@@ -1,101 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="table.css">
-</head>
-<body>
+    <link rel="stylesheet" href="table.css" />
+  </head>
+  <body>
     <nav>
-        <ul>
-            <img src="../images.png" alt="">
-            <li><a href="#" class="jarak">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#" >Home</a></li>
-        </ul>
+      <ul>
+        <img src="../images.png" alt="" />
+        <li><a href="#" class="jarak">Home</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
+      </ul>
     </nav>
 
     <header class="jarakH">
-        <h1>From Belajar</h1>
-        <br>
-        <p>ini adalagh websiste</p>
+      <h1>From Belajar</h1>
+      <br/>
+      <p>ini adalagh websiste</p>
     </header>
 
-    <main style="flex-direction: row; display: flex;">
-        <div style="display: flex;" class="from">
-            <form>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="nama">Nama : </label>
-                    </div>
-                    <div class="col-75">
-                        <input type="text" id="nama" name="nama" placeholder="Masukan Nama">
-                    </div>
-                </div>
+    <main style="flex-direction: row; display: flex">
+      <div style="display: flex" class="from">
+        <form>
+          <div class="row">
+            <div class="col-25">
+              <label for="nama">Nama : </label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="nama"
+                name="nama"
+                placeholder="Masukan Nama"
+              />
+            </div>
+          </div>
 
-                <div class="row">
-                    <div class="col-25">
-                        <label for="tanggal">Tanggal Lahir : </label>
-                    </div>
-                    <div class="col-75">
-                        <input type="text" id="tanggal" name="tanggal" placeholder="Masukan Tanggal Lahir">
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-25">
-                        <label>Jenis Kelamin : </label>
-                    </div>
-                    <div class="col-75">
-                        <input type="radio" id="jk" name="jk" value="laki-laki">
-                        <label for="jk">Laki-Laki</label>
-                        <input type="radio" id="jk" name="jk" value="perempuan">
-                        <label for="jk">Perempuan</label>
-                    </div>
-                </div>
-                
+          <div class="row">
+            <div class="col-25">
+              <label for="tanggal">Tanggal Lahir : </label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="tanggal"
+                name="tanggal"
+                placeholder="Masukan Tanggal Lahir"
+              />
+            </div>
+          </div>
 
-                <div class="row">
-                    <div class="col-25">
-                        <label for="pesan">Pesan</label>
-                    </div>
-                    <div class="col-75">
-                        <textarea id="pesan" name="pesan" placeholder="Pesan"></textarea>
-                    </div>
-                </div>
-                
-               <div class="row">
-                    <input type="submit" value="submit">
-               </div>
-            </form>
-            
-        </div>
+          <div class="row">
+            <div class="col-25">
+              <label>Jenis Kelamin : </label>
+            </div>
+            <div class="col-75">
+              <input type="radio" id="jk" name="jk" value="laki-laki" />
+              <label for="jk">Laki-Laki</label>
+              <input type="radio" id="jk" name="jk" value="perempuan" />
+              <label for="jk">Perempuan</label>
+            </div>
+          </div>
 
-        <div style="display: flex; flex: 1; align-content: center; justify-content: center;">
-            <table class="table_person" >
-                <tr>
-                    <th>Nama</th>
-                    <th>Tanggal Lahir</th>
-                    <th>jenis kelamin</th>
-                    <th>pesan</th>
-                    <th>profil</th>
-                    <th>hapus</th>
-                </tr>
-                <tr>
-                    <td>Tset1</td>
-                    <td>16 januarri 2007</td>
-                    <td>laki laki</td>
-                    <td>Tset1</td>
-                    <td><a href="#">Klik Disini</a></td>
-                    <td><img style="width: 30px; margin: auto;" src="../delte.png"></td>
-                </tr>
-            </table>
-        </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="pesan">Pesan</label>
+            </div>
+            <div class="col-75">
+              <textarea id="pesan" name="pesan" placeholder="Pesan"></textarea>
+            </div>
+          </div>
+
+          <div class="row">
+            <input type="submit" value="submit" />
+          </div>
+        </form>
+      </div>
+
+      <div
+        style="
+          display: flex;
+          flex: 1;
+          align-content: center;
+          justify-content: center;
+        "
+      >
+        <table class="table_person">
+          <tr>
+            <th>Nama</th>
+            <th>Tanggal Lahir</th>
+            <th>jenis kelamin</th>
+            <th>pesan</th>
+            <th>profil</th>
+            <th>hapus</th>
+          </tr>
+          <tr>
+            <td>Tset1</td>
+            <td>16 januarri 2007</td>
+            <td>laki laki</td>
+            <td>Tset1</td>
+            <td><a href="#">Klik Disini</a></td>
+            <td>
+              <img style="width: 30px; margin: auto" src="../delte.png" />
+            </td>
+          </tr>
+        </table>
+      </div>
     </main>
 
     <footer class="footer">
-        <p>Aku 2023</p>
+      <p>Aku 2023</p>
     </footer>
-</body>
+  </body>
 </html>
