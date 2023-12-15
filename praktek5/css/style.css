@@ -1,0 +1,60 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.nav-item li {
+    display: inline;
+    margin-right: 40px;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    margin-bottom: 40px;
+    background-size: cover;
+}
+
+.facilitations {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.facilitations div {
+    align-items: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    /* 
+    membuat posisi gambar ke tengah dan
+    membuat gambar tidak berulang jika
+    gambarnya tidak sesuai,  background
+    size cover membuat gambar sesuai dengan
+    ukuran circle
+    */
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
