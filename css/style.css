@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    background-color: #9BBEC8;
+}
+
+nav .logo {
+    width: 75px;
+    margin-left: 280px;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: -1px 8px 12px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 8px 12px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 8px 12px -2px rgba(0,0,0,0.75);
+}
+
+.nav-li li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-li li  {
+    margin-right: 50px;
+    display: inline;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #EBE3D5;
+}
+
+.nav-li li:hover{
+    background-color: #B0A695;
+    transition: 0.7s;
+    box-shadow: 1px 3px;
+}
+
+.gambarHome {
+    display: flex;
+    background-image: url(../assets/img/gambar3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 870px;
+    width: auto;
+}
+
+.gambarHome div {
+    margin: auto;
+    color: #F7EFE5;
+    width: 600px;
+    text-align: center;
+}
+
+.gambarHome h1 {
+    font-weight: bold;
+    
+}
