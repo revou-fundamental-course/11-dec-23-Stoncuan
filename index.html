@@ -63,19 +63,78 @@
 
     <section id="message">
         <div>
-            <div class="judulMassge">
+            <div class="judulMassge" >
                 <h2>Send Massage</h2>
             </div>
 
-            <div class="kirim">
-                <form></form>
-            </div>
-            <div class="pesan">
+        <div class="pesan">
+            <div class="kotakF">
+                <form>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="nama">Nama </label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="nama" name="nama" placeholder="Masukan Nama...">
+                        </div>
+                    </div>
 
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="tanggal">Tanggal Lahir </label>
+                        </div>
+                        <div class="col-75">
+                            <input type="date" id="tanggal" name="tanggal" placeholder="Masukan Tanggal Lahir...">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="tanggal">jenis Kelamin </label>
+                        </div>
+                        <div class="col-75">
+                            <input type="radio" id="jk" name="jk" value="laki-laki">
+                            <label for="jk">Laki-Laki</label>
+                            <input type="radio" id="jk" name="jk" value="perempuan">
+                            <label for="jk">Perempuan</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="pesan">Pesan </label>
+                        </div>
+                        <div class="col-75">
+                            <textarea id="pesan" name="pesan" placeholder="masukan pesan..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <input type="submit" value="submit"/>
+                    </div>
+
+                    </form>
+                </div>
+
+                <div class="kotakP">
+                    <div class="judulP">
+                        <h3>Pesan Yang Di Kirimkan</h3>
+                    </div>
+                    <div class="isiP">
+                        <p style="margin-top: 75px;">Nama : </p>
+                        <p>Tanggal Lahir : </p>
+                        <p>Jenis Kelamin : </p>
+                        <p>Pesan : </p>
+                    </div>
+                </div>
             </div>
-        </div>
-        </div>
+            
+            </div>
     </section>
+
+    <footer>
+        <h3>Created By <span>@Stoncuan Macpal Bawangun</span></h3>
+    </footer>
 
 </body>
 </html>
