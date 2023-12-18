@@ -82,28 +82,75 @@ nav .logo {
 .aboutMe {
     display: flex;
     justify-content: space-around;
-    border: 1px solid black;
-    margin-top: 10px;
+    margin-top: 20px;
+    
 }
 
 .gambarAbout {
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid black;
-    background-color: #B6BBC4;
+    border-bottom: 3px solid black;
+    
+}
+
+.aboutT {
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.aboutT p {
+    word-spacing: 3px;
 }
 
 .gambarAbout img {
-    width: 380px;
+    width:350px;
     border-radius: 50%;
     padding-top: 20px;
     padding-bottom: 10px;
 }
 
 .my {
-    border: 1px solid black;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #F0ECE5;
+    width: 600px;
 }
 
 .myP {
-    
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 600px;
+    background-color: #F0ECE5;
+}
+.judulData h2{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.isiData {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.isiData p {
+    display: flex;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 15px ;
+    margin: 8px;
+    background-color: whitesmoke;
+    font-weight: 563;
+}
+
+.judulMassge {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.judulMassge h2 {
+    font-weight: bold;
 }
