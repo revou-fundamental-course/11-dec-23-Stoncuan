@@ -66,3 +66,44 @@ nav .logo {
     font-weight: bold;
     
 }
+
+/* about me */
+.judulAbout {
+    display: flex;
+    justify-content: space-around;
+}
+
+.judulAbout h1 {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.gambarAbout {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    background-color: #B6BBC4;
+}
+
+.gambarAbout img {
+    width: 380px;
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.my {
+    border: 1px solid black;
+}
+
+.myP {
+    
+}
