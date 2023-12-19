@@ -68,13 +68,14 @@
 
         <div class="pesan">
             <div class="kotakF">
-                <form>
+                <form name="form" >
                     <div class="row">
                         <div class="col-25">
                             <label for="nama">Nama </label>
                         </div>
                         <div class="col-75">
                             <input type="text" id="nama" name="nama" placeholder="Masukan Nama...">
+                            <p id="errorNama"></p>
                         </div>
                     </div>
 
@@ -84,6 +85,7 @@
                         </div>
                         <div class="col-75">
                             <input type="date" id="tanggal" name="tanggal" placeholder="Masukan Tanggal Lahir...">
+                            <p id="errorTanggal"></p>
                         </div>
                     </div>
 
@@ -96,6 +98,7 @@
                             <label for="jk">Laki-Laki</label>
                             <input type="radio" id="jk" name="jk" value="perempuan">
                             <label for="jk">Perempuan</label>
+                            <p id="errorJk"></p>
                         </div>
                     </div>
 
@@ -105,14 +108,15 @@
                         </div>
                         <div class="col-75">
                             <textarea id="pesan" name="pesan" placeholder="masukan pesan..."></textarea>
+                            <p id="errorPesan"></p>
                         </div>
                     </div>
 
                     <div class="row">
-                        <input type="submit" value="submit"/>
+                       <button type="button" onclick="validateForm()">Kirim</button>
                     </div>
 
-                    </form>
+                </form>
                 </div>
 
                 <div class="kotakP">
@@ -120,10 +124,10 @@
                         <h3>Pesan Yang Di Kirimkan</h3>
                     </div>
                     <div class="isiP">
-                        <p style="margin-top: 75px;">Nama : </p>
-                        <p>Tanggal Lahir : </p>
-                        <p>Jenis Kelamin : </p>
-                        <p>Pesan : </p>
+                        <p style="margin-top: 75px;">Nama : <span id="namaData"></span></p>
+                        <p>Tanggal Lahir : <span id="tanggalData"></span></p>
+                        <p>Jenis Kelamin : <span id="jkData"></span></p>
+                        <p>Pesan : <span id="pesanData"></span ></p>
                     </div>
                 </div>
             </div>

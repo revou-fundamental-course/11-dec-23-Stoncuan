@@ -194,7 +194,7 @@ label {
     display: inline;
 }
 
-input[type=submit]{
+button{
     background-color: #cccc;
     color: black;
     padding: 12px 20px;
