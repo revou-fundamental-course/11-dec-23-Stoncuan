@@ -11,6 +11,8 @@ nav {
     padding: 10px;
     border-bottom: 1px solid black;
     background-color: #9BBEC8;
+    position: fixed;
+    width: 100%;
 }
 
 nav .logo {
