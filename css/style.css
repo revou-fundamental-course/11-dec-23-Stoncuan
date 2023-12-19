@@ -78,7 +78,7 @@ nav .logo {
 .judulAbout h1 {
     font-weight: bold;
     text-decoration: underline;
-    margin-top: 50px;
+    margin-top: 110px;
 }
 
 .aboutMe {
@@ -116,18 +116,18 @@ nav .logo {
     border: 2px solid black;
     border-radius: 20px;
     background-color: #F0ECE5;
-    width: 600px;
+    width: 500px;
 }
 
 .myP {
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 20px;
-    width: 600px;
+    width: 490px;
     background-color: #F0ECE5;
 }
 .judulData h2{
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     padding: 10px;
 }
 
