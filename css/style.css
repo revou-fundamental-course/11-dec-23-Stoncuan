@@ -1,283 +1,416 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid black;
-    background-color: #9BBEC8;
-    position: fixed;
-    width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  background-color: #9bbec8;
+  position: fixed;
+  width: 100%;
 }
 
 nav .logo {
-    width: 75px;
-    margin-left: 280px;
-    border: 1px solid black;
-    border-radius: 50%;
-    box-shadow: -1px 8px 12px -2px rgba(0,0,0,0.75);
--webkit-box-shadow: -1px 8px 12px -2px rgba(0,0,0,0.75);
--moz-box-shadow: -1px 8px 12px -2px rgba(0,0,0,0.75);
+  width: 75px;
+  margin-left: 280px;
+  border: 1px solid black;
+  border-radius: 50%;
+  box-shadow: -1px 8px 12px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 8px 12px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 8px 12px -2px rgba(0, 0, 0, 0.75);
 }
 
-.nav-li li a{
-    list-style-type: none;
-    text-decoration: none;
-    color: black;
+.nav-li li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
 }
 
-.nav-li li  {
-    margin-right: 50px;
-    display: inline;
-    border: 1px solid black;
-    border-radius: 15px;
-    padding: 8px;
-    text-align: center;
-    font-weight: bold;
-    background-color: #EBE3D5;
+.nav-li li {
+  margin-right: 50px;
+  display: inline;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #ebe3d5;
 }
 
-.nav-li li:hover{
-    background-color: #B0A695;
-    transition: 0.7s;
-    box-shadow: 1px 3px;
+.nav-li li:hover {
+  background-color: #b0a695;
+  transition: 0.7s;
+  box-shadow: 1px 3px;
 }
 
 .gambarHome {
-    display: flex;
-    background-image: url(../assets/img/gambar3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 870px;
-    width: auto;
+  display: flex;
+  background-image: url(../assets/img/gambar3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+  width: 100%;
 }
 
 .gambarHome div {
-    margin: auto;
-    color: #F7EFE5;
-    width: 600px;
-    text-align: center;
+  margin: auto;
+  color: #f7efe5;
+  width: 600px;
+  text-align: center;
 }
 
 .gambarHome h1 {
-    font-weight: bold;
-    
+  font-weight: bold;
 }
 
 /* about me */
 .judulAbout {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .judulAbout h1 {
-    font-weight: bold;
-    text-decoration: underline;
-    margin-top: 110px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 110px;
 }
 
 .aboutMe {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-    
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 
 .gambarAbout {
-    display: flex;
-    justify-content: center;
-    border-bottom: 3px solid black;
-    
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid black;
 }
 
 .aboutT {
-    text-align: center;
-    padding: 10px;
-    padding-top: 20px;
+  text-align: center;
+  padding: 10px;
+  padding-top: 20px;
 }
 
 .aboutT p {
-    word-spacing: 3px;
+  word-spacing: 3px;
 }
 
 .gambarAbout img {
-    width:350px;
-    border-radius: 50%;
-    padding-top: 20px;
-    padding-bottom: 10px;
+  width: 350px;
+  border-radius: 50%;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .my {
-    border: 2px solid black;
-    border-radius: 20px;
-    background-color: #F0ECE5;
-    width: 500px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: #f0ece5;
+  width: 500px;
 }
 
 .myP {
-    border: 2px solid black;
-    border-radius: 20px;
-    width: 490px;
-    background-color: #F0ECE5;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 490px;
+  background-color: #f0ece5;
 }
-.judulData h2{
-    text-align: center;
-    border-bottom: 2px solid black;
-    padding: 10px;
+.judulData h2 {
+  text-align: center;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  margin-bottom: 115px;
 }
 
 .isiData {
-    font-size: 18px;
-    padding: 10px;
+  font-size: 18px;
+  padding: 10px;
 }
 
 .isiData p {
-    display: flex;
-    padding: 5px;
-    border: 1px solid black;
-    border-radius: 8px ;
-    margin: 8px;
-    background-color: whitesmoke;
-    font-weight: 563;
+  display: flex;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 8px;
+  background-color: whitesmoke;
+  font-weight: 563;
 }
 
 .judulMassge {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .judulMassge h2 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .pesan {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-input[type=text]{
-    margin: 8px;
-    box-sizing: border-box;
-    width: 85%;
+input[type="text"] {
+  margin: 8px;
+  box-sizing: border-box;
+  width: 85%;
 }
 
-input[type=date]{
-    margin: 8px;
-    box-sizing: border-box;
-    width: 85%;
+input[type="date"] {
+  margin: 8px;
+  box-sizing: border-box;
+  width: 85%;
 }
 
-input[type=radio]{
-    margin: 8px;
-    box-sizing: border-box;
+input[type="radio"] {
+  margin: 8px;
+  box-sizing: border-box;
 }
 
-input[type=text], textarea {
-    width: 85%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
+input[type="text"],
+textarea {
+  width: 85%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
 }
-
 
 label {
-    padding: 12px 12px 12px 0;
-    display: inline;
+  padding: 12px 12px 12px 0;
+  display: inline;
 }
 
-button{
-    background-color: #cccc;
-    color: black;
-    padding: 12px 20px;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-    width: 390px;
-    margin-left: 55px;
-    margin-top: 20px;
-    
-    font-size: 17px;
+button {
+  background-color: #cccc;
+  color: black;
+  padding: 12px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  width: 390px;
+  margin-left: 55px;
+  margin-top: 20px;
+
+  font-size: 17px;
 }
 
-
-input{
-    background-color: #cccc;
-    color: black;
-    padding: 12px 20px;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-    width: 45px;
-    margin-left: 45px;
-    margin-top: px;
+input {
+  background-color: #cccc;
+  color: black;
+  padding: 12px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  width: 45px;
+  margin-left: 45px;
+  margin-top: px;
 }
 
 .col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
+  float: left;
+  width: 25%;
+  margin-top: 6px;
 }
 
 .col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
+  float: left;
+  width: 75%;
+  margin-top: 6px;
 }
 
 .kotakF {
-    background-color: whitesmoke;
-    width: 500px;
-    border: 1px solid #cccc;
-    border-radius: 20px;
-    padding: 20px;
+  background-color: whitesmoke;
+  width: 500px;
+  border: 1px solid #cccc;
+  border-radius: 20px;
+  padding: 20px;
 }
 .kotakP {
-    background-color: whitesmoke;
-    border: 1px solid #cccc;
-    border-radius: 20px;
-    width: 500px;
+  background-color: whitesmoke;
+  border: 1px solid #cccc;
+  border-radius: 20px;
+  width: 500px;
 }
 
-.judulP{
-    border-bottom: 1px solid #cccc;
-    padding: 10px;
+.judulP {
+  border-bottom: 1px solid #cccc;
+  padding: 10px;
 }
 
-.judulP h3{
-    text-align: center;
+.judulP h3 {
+  text-align: center;
 }
 
-.isiP{
-    padding: 12px;
+.isiP {
+  padding: 12px;
 }
 
 .isiP p {
-    border: 1px solid #cccc;
-    border-radius: 5px;
-    margin-top: 10px;
-    background-color: white;
-    font-size: 17px;
-    padding: 5px;
+  border: 1px solid #cccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: white;
+  font-size: 17px;
+  padding: 5px;
 }
 
-footer{
-    margin-top: 100px;
-    border-top: 1px solid #cccc;
-    background-color: #9BBEC8;
+footer {
+  margin-top: 100px;
+  border-top: 1px solid #cccc;
+  background-color: #9bbec8;
 }
 
 footer h3 {
-    padding: 15px;
+  padding: 15px;
+  text-align: center;
+  margin-top: 10px;
+  text-shadow: -2px 0px 4px rgba(251, 251, 251, 0.6);
+}
+
+/* responsive */
+@media only screen and (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+  }
+
+  .nav-li li {
+    font-size: 15px;
+    display: block;
+    flex-direction: column;
+    margin-left: 125px;
+    margin-bottom: 4px;
+    padding: 4px;
+    width: 28%;
+  }
+
+  nav .logo {
+    display: none;
+  }
+
+  .gambarHome div {
+    margin: auto;
+    color: #f7efe5;
+    width: 380px;
     text-align: center;
-    margin-top: 10px;
-    text-shadow: -2px 0px 4px rgba(251,251,251,0.6);
+   
+  }
+
+  .gambarHome h1 {
+    font-size: 24px;
+    word-spacing: 3px;
+  }
+
+  .judulAbout {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .aboutMe {
+    display: block;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 20px;
+    
+  }
+
+  .my {
+    width: 390px;
+    margin: auto;
+    margin-bottom: 45px;
+  }
+  
+  .myP {
+    width: 390px;
+    margin: auto;
+  }
+
+  .gambarAbout img {
+    width: 200px;
+  }
+
+  .judulData h2{
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+
+  .isiData p {
+    font-size: 14px;
+  }
+  .jarakPisi p{
+    margin-top: 500px;
+  }
+
+
+
+  .pesan {
+    display: block;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .kotakF {
+    width: 390px;
+    margin: auto;
+    margin-bottom: 45px;
+    padding: 10px;
+  }
+
+  button {
+    padding: 5px;
+    width: 200px;
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 17px;
+  }
+
+  input[type="radio"] {
+    margin: 4px;
+    box-sizing: border-box;
+    margin-bottom: 34px;
+  }
+
+  .kotakP {
+    width: 400px;
+    margin: auto;
+  }
+
+  .judulP h3 {
+    font-size: 18px;
+  }
+
+  .isiP p {
+    font-size: 14px;
+  }
+
+
+  footer{
+    width: 100%;
+  }
+
+  footer h3 {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 5px;
+    text-shadow: -2px 0px 4px rgba(251, 251, 251, 0.6);
+  }
+  
+
+
 }

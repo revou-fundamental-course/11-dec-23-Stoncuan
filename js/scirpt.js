@@ -26,7 +26,6 @@ function validateForm(){
     }
 
    setData(nama, tanggal, jk, pesan);
-   
 }
 
 function setData(nama, tanggal, jk, pesan){
