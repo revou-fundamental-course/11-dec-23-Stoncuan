@@ -151,8 +151,9 @@ nav .logo {
   justify-content: center;
 }
 
-.judulMassge h2 {
+.judulMassge h1 {
   font-weight: bold;
+  margin-top: 80px;
 }
 
 .pesan {
@@ -286,13 +287,14 @@ footer h3 {
     flex-direction: row;
     justify-content: space-around;
     height: 80px;
+    width: 100%;
   }
 
   .nav-li li {
     font-size: 15px;
     display: block;
     flex-direction: column;
-    margin-left: 125px;
+    margin-left: 180px;
     margin-bottom: 4px;
     padding: 4px;
     width: 28%;
@@ -305,13 +307,12 @@ footer h3 {
   .gambarHome div {
     margin: auto;
     color: #f7efe5;
-    width: 380px;
+    width: 290px;
     text-align: center;
-   
   }
 
   .gambarHome h1 {
-    font-size: 24px;
+    font-size: 18px;
     word-spacing: 3px;
   }
 
@@ -329,18 +330,22 @@ footer h3 {
   }
 
   .my {
-    width: 390px;
+    width: 280px;
     margin: auto;
     margin-bottom: 45px;
   }
   
   .myP {
-    width: 390px;
+    width: 280px;
     margin: auto;
   }
 
   .gambarAbout img {
-    width: 200px;
+    width: 180px;
+  }
+
+  .aboutT p {
+    font-size: 15px;
   }
 
   .judulData h2{
@@ -356,6 +361,9 @@ footer h3 {
   }
 
 
+  .judulMassge h1{
+    margin-top: 110px;
+  }
 
   .pesan {
     display: block;
@@ -364,29 +372,44 @@ footer h3 {
   }
 
   .kotakF {
-    width: 390px;
+    width: 280px;
     margin: auto;
     margin-bottom: 45px;
     padding: 10px;
+    
   }
 
   button {
     padding: 5px;
     width: 200px;
-    margin-left: 90px;
+    margin-left: 45px;
     margin-top: 20px;
     margin-bottom: 5px;
     font-size: 17px;
   }
 
+  label {
+    padding: 5px 5px 5px 0;
+    display: inline;
+    font-size: 15px;
+  }
+
   input[type="radio"] {
-    margin: 4px;
     box-sizing: border-box;
-    margin-bottom: 34px;
+    margin-bottom: 40px;
+    display: block;
+    
+  }
+
+
+  .labelJK{
+    display: flex;
+    margin-top: -30px;
+    text-align: center;
   }
 
   .kotakP {
-    width: 400px;
+    width: 280px;
     margin: auto;
   }
 
@@ -395,7 +418,7 @@ footer h3 {
   }
 
   .isiP p {
-    font-size: 14px;
+    font-size: 15px;
   }
 
 
@@ -404,7 +427,7 @@ footer h3 {
   }
 
   footer h3 {
-    font-size: 16px;
+    font-size: 14px;
     padding: 10px;
     text-align: center;
     margin-top: 5px;
