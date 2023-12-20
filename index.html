@@ -1,144 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <nav> 
-        <img class="logo" src="./assets/img/gambar1.png" alt="gambar logo">
-        <ul class="nav-li">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">Our Profile</a></li>
-            <li style="margin-right: 280px;" class="jarak"><a href="#message">Message Us</a></li>
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas RevoU</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <img class="logo" src="./assets/img/gambar1.png" alt="gambar logo" />
+      <ul class="nav-li">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Our Profile</a></li>
+        <li style="margin-right: 280px" class="jarak">
+          <a href="#message">Message Us</a>
+        </li>
+      </ul>
     </nav>
 
-    
     <header class="gambarHome" id="home">
-        <div>
-            <h1>Selamat Datang Di Website Saya <span id="nama"></span></h1>
-            <br>
-            <hr>
-            <br>
-            <h4>
-                Silahkan Scrol Kebawah Untuk Mencari
-                informasi lebih lanjut
-            </h4>
-        </div>
+      <div>
+        <h1>Selamat Datang Di Website Saya <span id="nama"></span></h1>
+        <br />
+        <hr />
+        <br />
+        <h4>Silahkan Scrol Kebawah Untuk Mencari informasi lebih lanjut</h4>
+      </div>
     </header>
 
-    <section style="background-color: whitesmoke ; height: 950px;" id="about">
-        <div class="judulAbout">
-            <h1>About Me</h1>
+    <section style="background-color: whitesmoke; height: 950px" id="about">
+      <div class="judulAbout">
+        <h1>About Me</h1>
+      </div>
+      <div class="aboutMe">
+        <div class="my">
+          <div class="gambarAbout">
+            <img src="./assets/img/gambar5.jpg" alt="gambar" />
+          </div>
+          <div class="aboutT">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
+              repellendus illo unde, ducimus dolore esse quibusdam pariatur
+              voluptatibus rerum harum suscipit excepturi dignissimos adipisci
+              delectus non tenetur ad error doloribus repellat quo itaque porro!
+              Facere neque quisquam accusantium, iure enim repellendus provident
+              consequatur cumque expedita.
+            </p>
+          </div>
         </div>
-        <div class="aboutMe">
-            <div class="my">
-                <div class="gambarAbout">
-                    <img src="./assets/img/gambar5.jpg" alt="gambar" >
-                </div>
-                <div class="aboutT">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid repellendus illo unde, ducimus dolore esse quibusdam pariatur voluptatibus rerum harum suscipit excepturi dignissimos adipisci delectus non tenetur ad error doloribus repellat quo itaque porro! Facere neque quisquam accusantium, iure enim repellendus provident consequatur cumque expedita.</p>
-                </div>
-            </div>
 
-            <div class="myP">
-                <div class="judulData">
-                    <h2>My Personal Data</h2>
-                </div>
-                <div class="isiData">
-                    <p class="jarakPisi">Nama     : Stoncuan</p>
-                    <p>My Hobie : Playing Badminton</p>
-                    <p>My Age   : 16</p>
-                    <p>Ambition : Software Engineer in the Web Dev Field </p>
-                </div>
-            </div>
+        <div class="myP">
+          <div class="judulData">
+            <h2>My Personal Data</h2>
+          </div>
+          <div class="isiData">
+            <p class="jarakPisi">Nama : Stoncuan</p>
+            <p>My Hobie : Playing Badminton</p>
+            <p>My Age : 16</p>
+            <p>Ambition : Software Engineer in the Web Dev Field</p>
+          </div>
         </div>
+      </div>
     </section>
-    <hr>
+    <hr />
 
     <section id="message">
-        <div>
-            <div class="judulMassge" >
-                <h1>Send Massage</h1>
-            </div>
+      <div>
+        <div class="judulMassge">
+          <h1>Send Massage</h1>
+        </div>
 
         <div class="pesan">
-            <div class="kotakF">
-                <form name="form" >
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="nama">Nama </label>
-                        </div>
-                        <div class="col-75">
-                            <input type="text" id="nama" name="nama" placeholder="Masukan Nama...">
-                            <p id="errorNama"></p>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="tanggal">Tanggal Lahir </label>
-                        </div>
-                        <div class="col-75">
-                            <input type="date" id="tanggal" name="tanggal" placeholder="Masukan Tanggal Lahir...">
-                            <p id="errorTanggal"></p>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="tanggal">jenis Kelamin </label>
-                        </div>
-                        <div class="col-75">
-                            <input type="radio" id="jk" name="jk" value="laki-laki">
-                            <label for="jk" class="labelJK">Laki-Laki</label>
-                            <input type="radio" id="jk" name="jk" value="perempuan">
-                            <label for="jk" class="labelJK">Perempuan</label>
-                            <p id="errorJk"></p>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="pesan">Pesan </label>
-                        </div>
-                        <div class="col-75">
-                            <textarea id="pesan" name="pesan" placeholder="masukan pesan..."></textarea>
-                            <p id="errorPesan"></p>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                       <button type="button" onclick="validateForm()">Kirim</button>
-                    </div>
-
-                </form>
+          <div class="kotakF">
+            <form name="form">
+              <div class="row">
+                <div class="col-25">
+                  <label for="nama">Nama </label>
                 </div>
-
-                <div class="kotakP">
-                    <div class="judulP">
-                        <h3>Pesan Yang Di Kirimkan</h3>
-                    </div>
-                    <div class="isiP">
-                        <p style="margin-top: 75px;">Nama : <span id="namaData"></span></p>
-                        <p>Tanggal Lahir : <span id="tanggalData"></span></p>
-                        <p>Jenis Kelamin : <span id="jkData"></span></p>
-                        <p>Pesan : <span id="pesanData"></span ></p>
-                    </div>
+                <div class="col-75">
+                  <input
+                    type="text"
+                    id="nama"
+                    name="nama"
+                    placeholder="Masukan Nama..."
+                  />
+                  <p id="errorNama"></p>
                 </div>
+              </div>
+
+              <div class="row">
+                <div class="col-25">
+                  <label for="tanggal">Tanggal Lahir </label>
+                </div>
+                <div class="col-75">
+                  <input
+                    type="date"
+                    id="tanggal"
+                    name="tanggal"
+                    placeholder="Masukan Tanggal Lahir..."
+                  />
+                  <p id="errorTanggal"></p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-25">
+                  <label for="tanggal">jenis Kelamin </label>
+                </div>
+                <div class="col-75">
+                  <input type="radio" id="jk" name="jk" value="laki-laki" />
+                  <label for="jk" class="labelJK">Laki-Laki</label>
+                  <input type="radio" id="jk" name="jk" value="perempuan" />
+                  <label for="jk" class="labelJK">Perempuan</label>
+                  <p id="errorJk"></p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-25">
+                  <label for="pesan">Pesan </label>
+                </div>
+                <div class="col-75">
+                  <textarea
+                    id="pesan"
+                    name="pesan"
+                    placeholder="masukan pesan..."
+                  ></textarea>
+                  <p id="errorPesan"></p>
+                </div>
+              </div>
+
+              <div class="row">
+                <button type="button" onclick="validateForm()">Kirim</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="kotakP">
+            <div class="judulP">
+              <h3>Pesan Yang Di Kirimkan</h3>
             </div>
-            
+            <div class="isiP">
+              <p style="margin-top: 75px">Nama : <span id="namaData"></span></p>
+              <p>Tanggal Lahir : <span id="tanggalData"></span></p>
+              <p>Jenis Kelamin : <span id="jkData"></span></p>
+              <p>Pesan : <span id="pesanData"></span></p>
             </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer>
-        <h3>Created By <span>@Stoncuan Macpal Bawangun</span></h3>
+      <h3>Created By <span>@Stoncuan Macpal Bawangun</span></h3>
     </footer>
 
-    <script src="./js/scirpt.js" ></script>
-
-</body>
+    <script src="./js/scirpt.js"></script>
+  </body>
 </html>
