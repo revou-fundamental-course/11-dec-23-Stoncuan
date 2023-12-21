@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  /* membuat scrool lebih smoth */
 }
 
 * {
@@ -46,8 +47,6 @@ nav .logo {
   font-weight: bold;
   background-color: #ebe3d5;
 }
-
-
 
 .nav-li .jarak {
   margin-right: 100px;
@@ -335,7 +334,6 @@ footer h3 {
     justify-content: space-around;
     flex-direction: column;
     margin-top: 20px;
-    
   }
 
   .my {
@@ -343,7 +341,7 @@ footer h3 {
     margin: auto;
     margin-bottom: 45px;
   }
-  
+
   .myP {
     width: 280px;
     margin: auto;
@@ -357,7 +355,7 @@ footer h3 {
     font-size: 15px;
   }
 
-  .judulData h2{
+  .judulData h2 {
     font-size: 18px;
     margin-bottom: 0px;
   }
@@ -365,12 +363,11 @@ footer h3 {
   .isiData p {
     font-size: 14px;
   }
-  .jarakPisi p{
+  .jarakPisi p {
     margin-top: 500px;
   }
 
-
-  .judulMassge h1{
+  .judulMassge h1 {
     margin-top: 110px;
   }
 
@@ -385,7 +382,6 @@ footer h3 {
     margin: auto;
     margin-bottom: 45px;
     padding: 10px;
-    
   }
 
   button {
@@ -407,10 +403,9 @@ footer h3 {
     box-sizing: border-box;
     margin-bottom: 40px;
     display: block;
-    
   }
 
-  .labelJK{
+  .labelJK {
     display: flex;
     margin-top: -30px;
     text-align: center;
@@ -429,8 +424,7 @@ footer h3 {
     font-size: 15px;
   }
 
-
-  footer{
+  footer {
     width: 100%;
   }
 
@@ -441,20 +435,19 @@ footer h3 {
     margin-top: 5px;
     text-shadow: -2px 0px 4px rgba(251, 251, 251, 0.6);
   }
-
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1000px){
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
   nav .logo {
     width: 60px;
-    margin-left: 5px;  
+    margin-left: 5px;
   }
 
   .nav-li li {
     border-radius: 15px;
     padding: 8px;
   }
-  
+
   .nav-li .jarak {
     margin-right: 20px;
   }
@@ -463,12 +456,10 @@ footer h3 {
     width: 490px;
   }
 
-
   .gambarHome h1 {
     font-size: 25px;
     word-spacing: 4px;
   }
-
 
   .aboutMe {
     display: block;
@@ -495,7 +486,7 @@ footer h3 {
     font-size: 16px;
   }
 
-  .judulData h2{
+  .judulData h2 {
     font-size: 19px;
     margin-bottom: 0px;
   }
@@ -504,8 +495,7 @@ footer h3 {
     font-size: 16px;
   }
 
-
-  .judulMassge h1{
+  .judulMassge h1 {
     margin-top: 90px;
   }
 
@@ -536,8 +526,6 @@ footer h3 {
     margin: auto;
   }
 
-  
-
   .judulP h3 {
     font-size: 19px;
   }
@@ -550,36 +538,32 @@ footer h3 {
     font-size: 18px;
     padding: 15px;
     margin-top: 5px;
-    
-  } 
+  }
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1500px){
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
   nav .logo {
     width: 65px;
-    margin-left: 5px;  
+    margin-left: 5px;
   }
 
   .my {
     width: 400px;
-    
-    
   }
 
   .myP {
     width: 400px;
-    
   }
 
   .gambarAbout img {
     width: 220px;
   }
-  
+
   .aboutT p {
     font-size: 16px;
   }
 
-  .judulData h2{
+  .judulData h2 {
     font-size: 19px;
     margin-bottom: 60px;
   }
@@ -617,7 +601,5 @@ footer h3 {
     font-size: 18px;
     padding: 15px;
     margin-top: 5px;
-    
-  } 
-  
+  }
 }
