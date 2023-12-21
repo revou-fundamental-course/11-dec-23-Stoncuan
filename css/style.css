@@ -17,7 +17,7 @@ nav {
 
 nav .logo {
   width: 75px;
-  margin-left: 280px;
+  margin-left: 100px;
   border: 1px solid black;
   border-radius: 50%;
   box-shadow: -1px 8px 12px -2px rgba(0, 0, 0, 0.75);
@@ -35,11 +35,18 @@ nav .logo {
   margin-right: 50px;
   display: inline;
   border: 1px solid black;
-  border-radius: 15px;
-  padding: 8px;
+  flex-direction: row;
+  border-radius: 20px;
+  padding: 12px;
   text-align: center;
   font-weight: bold;
   background-color: #ebe3d5;
+}
+
+
+
+.nav-li .jarak {
+  margin-right: 100px;
 }
 
 .nav-li li:hover {
@@ -286,18 +293,19 @@ footer h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 80px;
+    height: 50px;
     width: 100%;
   }
 
   .nav-li li {
     font-size: 15px;
-    display: block;
-    flex-direction: column;
-    margin-left: 180px;
-    margin-bottom: 4px;
-    padding: 4px;
-    width: 28%;
+    display: inline;
+    padding: 7px;
+    margin: 10px;
+  }
+
+  .nav-li .jarak {
+    margin-right: 20px;
   }
 
   nav .logo {
@@ -305,10 +313,7 @@ footer h3 {
   }
 
   .gambarHome div {
-    margin: auto;
-    color: #f7efe5;
     width: 290px;
-    text-align: center;
   }
 
   .gambarHome h1 {
@@ -401,7 +406,6 @@ footer h3 {
     
   }
 
-
   .labelJK{
     display: flex;
     margin-top: -30px;
@@ -433,7 +437,183 @@ footer h3 {
     margin-top: 5px;
     text-shadow: -2px 0px 4px rgba(251, 251, 251, 0.6);
   }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px){
+  nav .logo {
+    width: 60px;
+    margin-left: 5px;  
+  }
+
+  .nav-li li {
+    border-radius: 15px;
+    padding: 8px;
+  }
+  
+  .nav-li .jarak {
+    margin-right: 20px;
+  }
+
+  .gambarHome div {
+    width: 490px;
+  }
+
+
+  .gambarHome h1 {
+    font-size: 25px;
+    word-spacing: 4px;
+  }
+
+
+  .aboutMe {
+    display: block;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .my {
+    width: 400px;
+    margin: auto;
+    margin-bottom: 45px;
+  }
+
+  .myP {
+    width: 400px;
+    margin: auto;
+  }
+
+  .gambarAbout img {
+    width: 230px;
+  }
+  .aboutT p {
+    font-size: 16px;
+  }
+
+  .judulData h2{
+    font-size: 19px;
+    margin-bottom: 0px;
+  }
+
+  .isiData p {
+    font-size: 16px;
+  }
+
+
+  .judulMassge h1{
+    margin-top: 90px;
+  }
+
+  .pesan {
+    display: block;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .kotakF {
+    width: 430px;
+    margin: auto;
+    margin-bottom: 45px;
+    padding: 10px;
+  }
+
+  button {
+    padding: 5px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+  .kotakP {
+    width: 430px;
+    margin: auto;
+  }
+
   
 
+  .judulP h3 {
+    font-size: 19px;
+  }
 
+  .isiP p {
+    font-size: 16px;
+  }
+
+  footer h3 {
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 5px;
+    
+  } 
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1500px){
+  nav .logo {
+    width: 65px;
+    margin-left: 5px;  
+  }
+
+  .my {
+    width: 400px;
+    
+    
+  }
+
+  .myP {
+    width: 400px;
+    
+  }
+
+  .gambarAbout img {
+    width: 220px;
+  }
+  
+  .aboutT p {
+    font-size: 16px;
+  }
+
+  .judulData h2{
+    font-size: 19px;
+    margin-bottom: 60px;
+  }
+
+  .isiData p {
+    font-size: 16px;
+  }
+
+  .kotakF {
+    width: 430px;
+    padding: 10px;
+  }
+
+  button {
+    padding: 5px;
+    width: 200px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+  .kotakP {
+    width: 430px;
+  }
+
+  .judulP h3 {
+    font-size: 19px;
+  }
+
+  .isiP p {
+    font-size: 16px;
+  }
+
+  footer h3 {
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 5px;
+    
+  } 
+  
 }
